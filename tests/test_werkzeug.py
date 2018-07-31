@@ -1,7 +1,7 @@
 
 import os
 import unittest
-import werkzeug_raw
+import dtkav_werkzeug_raw as werkzeug_raw
 
 
 VALID_DIR = os.path.join('tests', 'raw', 'valid')

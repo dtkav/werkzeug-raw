@@ -3,7 +3,7 @@ import os
 from flask import Flask, redirect
 import unittest
 import werkzeug
-import werkzeug_raw
+import dtkav_werkzeug_raw as werkzeug_raw
 
 
 VALID_DIR = os.path.join('tests', 'raw', 'valid')

@@ -10,16 +10,16 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 
 setup(
-    name='Werkzeug-Raw',
+    name='dtkav-werkzeug-raw',
     version='0.0.1',
     description='Werkzeug meets Raw HTTP',
     long_description=long_description,
     url='http://pythonhosted.org/Werkzeug-Raw/',
-    author='Nathan Cahill',
-    author_email='nathan@nathancahill.com',
+    author='Daniel Grossmann-Kavanagh, Nathan Cahill',
+    author_email='me@danielgk.com, nathan@nathancahill.com',
     license='MIT',
     keywords='werkzeug flask http',
-    py_modules=['werkzeug_raw'],
+    py_modules=['dtkav_werkzeug_raw'],
     install_requires=['werkzeug', 'six'],
     tests_require=['nose', 'coverage'],
     classifiers=[
